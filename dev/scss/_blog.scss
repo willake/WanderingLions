@@ -6,7 +6,7 @@
         text-align: center;
         background-position: center;
         background-size: cover;
-        background-image: url(/images/blog_welcome.jpg);
+        background-image: url(../images/blog_welcome.jpg);
         color: white;
 
         &:after {
@@ -32,7 +32,7 @@
         text-align: center;
         background-position: center;
         background-size: cover;
-        background-image: url(/images/blog_description.jpg);
+        background-image: url(../images/blog_description.jpg);
         padding: 50px 0;
         color: white;
 
@@ -79,15 +79,15 @@
             }
 
             &.bloggy {
-                background-image: url(/images/blog_blog.jpg);
+                background-image: url(../images/blog_blog.jpg);
             }
 
             &.unsober {
-                background-image: url(/images/blog_unsober.jpg);
+                background-image: url(../images/blog_unsober.jpg);
             }
 
             &.lion {
-                background-image: url(/images/blog_lion.jpg);
+                background-image: url(../images/blog_lion.jpg);
             }
         }
     }

@@ -12,21 +12,21 @@
             background-size: contain;
 
             &.programming {
-                background-image: url(/images/about_programming.png);
+                background-image: url(../images/about_programming.png);
             }
 
             &.creativity {
-                background-image: url(/images/about_creativity.png);
+                background-image: url(../images/about_creativity.png);
             }
 
             &.design {
-                background-image: url(/images/about_design.png);
+                background-image: url(../images/about_design.png);
             }
         }
     }
 
     .slogan {
-        background-image: url(/images/common_background.jpg);
+        background-image: url(../images/common_background.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -53,11 +53,11 @@
             background-size: cover;
 
             &.shian {
-                background-image: url(/images/about_shian.jpg);
+                background-image: url(../images/about_shian.jpg);
             }
 
             &.willake {
-                background-image: url(/images/about_willake.jpg);
+                background-image: url(../images/about_willake.jpg);
                 background-position: top;
             }
         }
