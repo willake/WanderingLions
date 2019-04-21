@@ -7740,7 +7740,7 @@ a.text-dark:hover, a.text-dark:focus {
   float: left;
   width: 60px;
   height: 60px;
-  background-image: url(/images/common_logo.png);
+  background-image: url(../images/common_logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center; }
@@ -7843,15 +7843,15 @@ footer {
       background-position: center;
       background-size: cover; }
       .work .category .project .image.cook {
-        background-image: url(/images/work_cook.jpg); }
+        background-image: url(../images/work_cook.jpg); }
       .work .category .project .image.escape {
-        background-image: url(/images/work_escape.jpg); }
+        background-image: url(../images/work_escape.jpg); }
       .work .category .project .image.wallet {
-        background-image: url(/images/work_wallet.jpg); }
+        background-image: url(../images/work_wallet.jpg); }
       .work .category .project .image.gaming {
-        background-image: url(/images/work_gaming.jpg); }
+        background-image: url(../images/work_gaming.jpg); }
       .work .category .project .image.graphic {
-        background-image: url(/images/work_graphic.jpg); }
+        background-image: url(../images/work_graphic.jpg); }
     .work .category .project .intro {
       background-color: #FFED84;
       padding: 20px;
@@ -7872,14 +7872,14 @@ footer {
     background-position: center;
     background-size: contain; }
     .about .features .feature.programming {
-      background-image: url(/images/about_programming.png); }
+      background-image: url(../images/about_programming.png); }
     .about .features .feature.creativity {
-      background-image: url(/images/about_creativity.png); }
+      background-image: url(../images/about_creativity.png); }
     .about .features .feature.design {
-      background-image: url(/images/about_design.png); }
+      background-image: url(../images/about_design.png); }
 
 .about .slogan {
-  background-image: url(/images/common_background.jpg);
+  background-image: url(../images/common_background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7903,9 +7903,9 @@ footer {
     background-repeat: no-repeat;
     background-size: cover; }
     .about .members .photo.shian {
-      background-image: url(/images/about_shian.jpg); }
+      background-image: url(../images/about_shian.jpg); }
     .about .members .photo.willake {
-      background-image: url(/images/about_willake.jpg);
+      background-image: url(../images/about_willake.jpg);
       background-position: top; }
 
 @media (min-width: 768px) {
@@ -7926,7 +7926,7 @@ footer {
   text-align: center;
   background-position: center;
   background-size: cover;
-  background-image: url(/images/contact_welcome.jpg);
+  background-image: url(../images/contact_welcome.jpg);
   color: white; }
   .contact .welcome:after {
     content: '';
@@ -7947,7 +7947,7 @@ footer {
   text-align: center;
   background-position: center;
   background-size: cover;
-  background-image: url(/images/contact_description.jpg);
+  background-image: url(../images/contact_description.jpg);
   padding: 50px 0;
   color: white; }
   .contact .description:after {
@@ -7992,7 +7992,7 @@ footer {
   text-align: center;
   background-position: center;
   background-size: cover;
-  background-image: url(/images/blog_welcome.jpg);
+  background-image: url(../images/blog_welcome.jpg);
   color: white; }
   .blog .welcome:after {
     content: '';
@@ -8013,7 +8013,7 @@ footer {
   text-align: center;
   background-position: center;
   background-size: cover;
-  background-image: url(/images/blog_description.jpg);
+  background-image: url(../images/blog_description.jpg);
   padding: 50px 0;
   color: white; }
   .blog .description:after {
@@ -8051,11 +8051,11 @@ footer {
     .blog .projects .project:hover {
       opacity: 1; }
     .blog .projects .project.bloggy {
-      background-image: url(/images/blog_blog.jpg); }
+      background-image: url(../images/blog_blog.jpg); }
     .blog .projects .project.unsober {
-      background-image: url(/images/blog_unsober.jpg); }
+      background-image: url(../images/blog_unsober.jpg); }
     .blog .projects .project.lion {
-      background-image: url(/images/blog_lion.jpg); }
+      background-image: url(../images/blog_lion.jpg); }
 
 html {
   width: 100vw;
@@ -8079,7 +8079,7 @@ section {
 
 .home {
   height: 100%;
-  background-image: url(/images/common_background.jpg);
+  background-image: url(../images/common_background.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover; }
