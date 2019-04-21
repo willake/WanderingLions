@@ -1,0 +1,59 @@
+@import "node_modules/bootstrap/scss/functions";
+// @import "./helpers/variables";
+// @import "./helpers/hamburger";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+
+@import "./nav";
+@import "./header";
+@import "./footer";
+
+@import "./work";
+@import "./about";
+@import "./contact";
+@import "./blog";
+
+html {
+    width: 100vw;
+    overflow: hidden;
+}
+
+* {
+    font-family: Agency FB;
+}
+
+a { color: inherit; } 
+
+.main-wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+section {
+    position: relative;
+    width: 100%;
+}
+
+.home {
+    height: 100%;
+    background-image: url(/images/common_background.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .slogan {
+        width: 100%;
+        position: absolute;
+        padding: 0 50px;
+        top: calc(50% - 50px);
+        text-align: center;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 25px;
+    }
+}
